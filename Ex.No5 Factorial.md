@@ -21,6 +21,7 @@ factorial(A,B) :-
 
 ### Output:
 https://user-images.githubusercontent.com/143495913/280925582-0030f0bd-081a-4e53-bd70-b22b35b66d99.png
+![WhatsApp Image 2023-11-08 at 18 41 43_7ad7636c](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/ce290af8-14c2-41cc-8fac-9060db4f44e5)
 
 ### Result:
 Thus the factorial of given number was found by logic programming. 
