@@ -20,8 +20,7 @@ factorial(A,B) :-
  B is A*D.
 
 ### Output:
-
-![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/ef8e9f63-164d-4c8e-abc6-550690fc50d3)
+![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/af7e1894-b64c-4ca9-a77c-14afc13e0841)
 
 
 ### Result:
