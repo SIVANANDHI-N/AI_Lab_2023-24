@@ -19,7 +19,6 @@ factorial(A,B) :-
  factorial(C,D),
  B is A*D.
 
-
 ### Output:
 
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/ef8e9f63-164d-4c8e-abc6-550690fc50d3)
