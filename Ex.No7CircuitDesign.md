@@ -15,6 +15,9 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 
 
+
+.
+
 ### Program:
 ```
 and(0,0,0).
