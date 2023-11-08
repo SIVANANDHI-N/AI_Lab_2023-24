@@ -12,7 +12,6 @@ To write a logic program to design a circuit like half adder and half subtractor
 6. Design a half adder and half subtractor using the rules.
 7. Test the logic.
 8. Stop the program.
-
 ### Program:
 ```
 and(0,0,0).
@@ -40,7 +39,6 @@ halfsubtractor(A,B,Diff,Bo):-
 ### Output:
 
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/acee5c7c-5073-4083-9505-3656b87425cd)
-
 
 ### Result:
 Thus the truth table of circuit verified sucessfully.
