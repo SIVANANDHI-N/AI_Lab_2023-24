@@ -13,32 +13,29 @@ To write a python program to implement Depth first Search.
 7. Stop the program.
 ### Program:
 ```
+# Using a Python dictionary to act as an adjacency list
 graph = {
  '5' : ['3','7'],
  '3' : ['2', '4'],
  '7' : ['8'],
  '2' : [],
  '4' : ['8'],
- '8' : []}
-visited = [] # List for visited nodes.
-queue = [] #Initialize a queue
-def bfs(visited, graph, node): #function for BFS
- visited.append(node)
- queue.append(node)
- while queue: 
-     m = queue.pop(0)
-     print (m, end = " ")
-     for neighbour in graph[m]:
-         if neighbour not in visited:
-             visited.append(neighbour)
-             queue.append(neighbour)
-print("Following is the Breadth-First Search")
-bfs(visited, graph, '5')
+ '8' : []
+}
+visited = set() # Set to keep track of visited nodes of graph.
+def dfs(visited, graph, node): #function for dfs
+ if node not in visited:
+ print (node)
+ visited.add(node)
+ for neighbour in graph[node]:
+ dfs(visited, graph, neighbour)
+# Driver Code
+print("Following is the Depth-First Search")
+dfs(visited, graph, '5') 
 ```
 ### Output:
 
-![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/3b31419a-b0d7-4519-a013-669a297bf153)
-
+![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/cca7f2bf-afb9-4c7a-ab54-53162852c2c4)
 
 ### Result:
 Thus the depth first search order was found sucessfully.
