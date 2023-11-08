@@ -97,11 +97,11 @@ app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','num
 app.launch(share=True)
 ```
 
-### Output/Plan:
+### Output:
 
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/93b71826-683e-4c39-a257-924332bd5382)
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/5aa53a09-458c-475d-8197-fd71b6b6fb12)
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/ec654af8-5c8d-4c2b-984d-51003cb12a95)
 
 ### Result:
-Thus the plan was found for the initial and goal state of block world problem.
+Thus the system was trained successfully and the prediction was carried out.
