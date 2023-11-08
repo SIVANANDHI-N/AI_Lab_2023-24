@@ -46,11 +46,13 @@ Step 10 : Obtain the plan for given problem.<br>
  (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 ```
 ### Input 
+```
 (define (problem pb1)
  (:domain blocksworld)
  (:objects a b)
  (:init (on-table a) (on-table b) (clear a) (clear b) (arm-empty))
  (:goal (and (on a b))))
+```
 ### Output/Plan:
 
 ![image](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/0539f4c6-b01d-4293-8ffa-aeedb886c5d7)
