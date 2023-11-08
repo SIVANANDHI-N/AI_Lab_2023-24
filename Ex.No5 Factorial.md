@@ -20,9 +20,7 @@ factorial(A,B) :-
  B is A*D.
 
 ### Output:
-![280925582-0030f0bd-081a-4e53-bd70-b22b35b66d99](https://github.com/Preethi132/AI_Lab_2023-24/assets/136288465/19250f54-9ae6-443d-b9e6-a7131e1dba2b)
-
-
+https://user-images.githubusercontent.com/143495913/280925582-0030f0bd-081a-4e53-bd70-b22b35b66d99.png
 
 ### Result:
 Thus the factorial of given number was found by logic programming. 
