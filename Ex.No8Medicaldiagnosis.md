@@ -17,27 +17,7 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.
 ### Program:
 ```
  symptom(Patient,fever),
