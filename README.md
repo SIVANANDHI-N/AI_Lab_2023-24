@@ -7,31 +7,29 @@ REQUIREMENTS
 4. JUPITER OR COLAB NOTEBOOK 
 
 ```
-graph={
-    '5':['3','7'],
-    '3':['2','4'],
-    '7':['8'],
-    '2':[],
-    '4':['8'],
-    '8':[]
+graph = {
+    '5': ['3', '7'],
+    '3': ['2', '4'],
+    '7': ['8'],
+    '2': [],
+    '4': ['8'],
+    '8': []
 }
-visited = [] 
-queue = []
-def bfs(visited, graph, node): 
-        visited.append(node)
-        queue.append(node)
-        while queue:
-            m = queue.pop(0)
-            print(m)
-            for neighbour in graph[m]:
-                    if neighbour not in visited:
-                         visited.append(neighbour)
-                         queue.append(neighbour)
-                                           
-#Driver code
-print("Following is the Breadth First Search")
-bfs(visited, graph, '5')
 
+visited = set()  # Set to keep track of visited nodes of the graph.
+
+def dfs(visited, graph, node):
+    if node not in visited:
+        print(node)
+        visited.add(node)
+        for neighbour in graph[node]:
+            dfs(visited, graph, neighbour)
+
+# Driver Code
+print("Following is the Depth-First Search")
+dfs(visited, graph, '5')
 ```
+                                           
+output:![WhatsApp Image 2024-08-19 at 15 13 01_8558ca71](https://github.com/user-attachments/assets/04e72250-86e3-437a-b886-cb5504260d49)
 
-![image](https://github.com/user-attachments/assets/cbf60b00-90e2-4f1f-b48d-775db711d53b)
+
