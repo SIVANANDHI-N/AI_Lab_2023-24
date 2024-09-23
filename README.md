@@ -1,6 +1,7 @@
 Ex.No: 5 Logic Programming – Factorial of number
 
 DATE:23-09-2024
+
 REGISTER NUMBER : 21222060247
 
 AIM:
@@ -13,6 +14,7 @@ a) factorial of 0 is 1 => written as factorial(0,1).
 b) factorial of number greater than 0 obtained by recursively calling the factorial function.
 STEP 3: Run the program to find answer of query.
 STEP 4: Stop the program.
+
 Program:
 ```
 factorial(0,1). factorial(A,B) :-
