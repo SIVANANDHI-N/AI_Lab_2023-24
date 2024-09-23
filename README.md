@@ -1,31 +1,46 @@
-Ex.No: 5 Logic Programming – Factorial of number
+Ex.No: 6 Logic Programming – Towers of Hanoi
 
 DATE:23-09-2024
 
 REGISTER NUMBER : 21222060247
 
 AIM:
-To write a logic program for finding the factorial of given number using SWI-PROLOG.
+To write a logic program to solve Towers of Hanoi problem using SWI-PROLOG.
 
 Algorithm:
-STEP 1: Start the program
-STEP 2: Write a rules for finding factorial of given program in SWI-PROLOG.
-a) factorial of 0 is 1 => written as factorial(0,1).
-b) factorial of number greater than 0 obtained by recursively calling the factorial function.
-STEP 3: Run the program to find answer of query.
-STEP 4: Stop the program.
+Start the program
+Write a rules for finding solution of Towers of Hanoi in SWI-PROLOG.
+a ) If only one disk => Move disk from X to Y.
+b) If Number of disk greater than 0 then
+   i)	Move  N-1 disks from X to Z.
+   ii)	Move  Nth disk from X to Y
+   iii)	Move  N-1 disks from Y to X.
+Run the program to find answer of query.
 
 Program:
 ```
-factorial(0,1). factorial(A,B) :-
-A > 0, C is A-1, factorial(C,D),
-B is A*D.
+move(1,X,Y,_) :-  
+    write('Move top disk from '), 
+    write(X), 
+    write(' to '), 
+    write(Y), 
+    nl. 
+move(N,X,Y,Z) :- 
+    N>1, 
+    M is N-1, 
+    move(M,X,Z,Y), 
+    move(1,X,Y,_), 
+    move(M,Z,Y,X).
 ```
 
 Output:
-![image](https://github.com/user-attachments/assets/62e68490-1ff9-40c7-bc81-8b601626dfba)
+
+![image](https://github.com/user-attachments/assets/b6a13bf4-fd12-47ae-950d-a43d8374458c)
 
 Result:
-Thus the factorial of given number was found by logic programming.
+
+Thus the solution of Towers of Hanoi problem was found by logic programming.
+
+
 
 
