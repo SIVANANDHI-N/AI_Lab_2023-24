@@ -45,20 +45,3 @@ OUTPUT:
 
 RESULT:
 Thus the breadth first search order was found sucessfully.
-
-
-
-
-
-
-
-
-
-
-
-### Output:
-
-
-
-### Result:
-Thus the breadth first search order was found sucessfully.
