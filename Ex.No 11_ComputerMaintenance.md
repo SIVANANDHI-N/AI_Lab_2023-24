@@ -40,21 +40,9 @@ problem(two_short_beeps).
 problem(blank_display).
 ```
 
-OUTPUT:
+### OUTPUT:
 ![image](https://github.com/user-attachments/assets/81ea52e1-9629-4fda-930c-7e78ae0ced20)
 
-Result:
-Thus the simple omputer maintenance expert system was built sucessfully.
-
-
-
-
-
-
-
-
-
-### Output:
 
 
 
