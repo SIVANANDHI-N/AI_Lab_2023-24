@@ -37,6 +37,8 @@ print("The optimal value is : ", end = "")
 print(minimax(0, 0, True, scores,treeDepth))
 
 ```
+
+
 ### Output:
 ![image](https://github.com/user-attachments/assets/f7581dfd-99d3-4a2c-99a9-f1394688afc0)
 
