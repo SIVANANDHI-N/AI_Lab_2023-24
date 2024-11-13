@@ -3,7 +3,7 @@
 ### REGISTER NUMBER : 
 ### AIM: 
 To write a program to train the classifier for -----------------.
-###  Algorithm:
+
 ###  Algorithm:
 ```
 Step:1 Import package
@@ -97,10 +97,6 @@ app.launch(share=True)
 ![image](https://github.com/Vijayalakshmi230/miniproject/assets/127175503/a0882788-27e3-44c4-9e29-ca759516affa)
 
 
-
-
-### Result:
-Thus the system was trained successfully and the prediction was carried out.
 
 
 ### Result:
