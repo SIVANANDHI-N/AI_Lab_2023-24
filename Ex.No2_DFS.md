@@ -32,27 +32,8 @@ def dfs(visited, graph, node):  #function for dfs
 print("Following is the Depth-First Search")
 dfs(visited,graph,'5')
 ```
-OUTPUT:
-![image](https://github.com/user-attachments/assets/fb314cb0-875b-442d-883d-746f8d072162)
-
-RESULT:
-Thus the depth first search order was found sucessfully.
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Output:
-
-
+### OUTPUT:
+![image](https://github.com/user-attachments/assets/fb314cb0-875b-442d-883d-746f8d07216
 
 ### Result:
 Thus the depth first search order was found sucessfully.
