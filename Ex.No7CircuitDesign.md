@@ -32,6 +32,7 @@ or(1,0,1).
 or(0,0,0).
 or(1,1,1).
 ```
+```
 halfadder(A,B,Sum,Carry):-
 xor(A,B,Sum),
 and(A,B,Carry).
