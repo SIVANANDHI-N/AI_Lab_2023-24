@@ -12,7 +12,6 @@ To write a logic program to design a circuit like half adder and half subtractor
 6. Design a half adder and half subtractor using the rules.
 7. Test the logic.
 8. Stop the program.
-
 ### Program:
 ```
 xor(0,1,1).
@@ -45,7 +44,5 @@ or(Y,Z,Cout).
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/0f6bd27d-ccb7-4fe3-91fc-a5c3384134ee)
-
-
 ### Result:
 Thus the truth table of circuit verified sucessfully.
